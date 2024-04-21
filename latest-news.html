@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>最新消息管理(公告管理)</h3>
+    <button>新增</button><br>
+    <hr>
+    顯示狀態：<input type="checkbox" checked>顯示中<input type="checkbox" checked>已暫停<input type="checkbox" checked>已結束(封存)<br>
+    顯示類型：<input type="checkbox" checked>一般公告<input type="checkbox" checked>優惠公告<input type="checkbox"
+        checked>常態性公告<input type="checkbox" checked>巴拉巴拉公告<br>
+    <hr>
+    <table>
+        <tr>
+            <th>類型</th>
+            <th>標題</th>
+            <th>開始日期</th>
+            <th>結束日期</th>
+            <th>狀態</th>
+            <th>編輯</th>
+            <th>刪除</th>
+        </tr>
+        <tr>
+            <td>一般公告</td>
+            <td>反詐騙提醒</td>
+            <td>2024/01/01</td>
+            <td>無期限</td>
+            <td>顯示</td>
+            <td><button>編輯</button></td>
+            <th><button>刪除</button></th>
+        </tr>
+        <tr>
+            <td>優惠公告</td>
+            <td>暑期專案開跑囉</td>
+            <td>2024/06/01</td>
+            <td>2024/08/31</td>
+            <td>暫停顯示</td>
+            <td><button>編輯</button></td>
+            <th><button>刪除</button></th>
+        </tr>
+        <tr>
+            <td>一般公告</td>
+            <td>系統維修通知</td>
+            <td>2024/04/01</td>
+            <td>2024/04/03</td>
+            <td>已結束(封存)</td>
+            <td><button>編輯</button></td>
+            <th><button>刪除</button></th>
+        </tr>
+    </table>
+    <hr>
+    <button>上一頁</button>每頁十筆，1/8頁<button>下一頁</button>
+</body>
+
+</html>
